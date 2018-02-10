@@ -1,0 +1,2 @@
+C:\Users\GOLihachev\Documents\GitHub\CustomException\CustomException\CustomException\bin\Debug\CustomException.exe.config
+C:\Users\GOLihachev\Documents\GitHub\CustomException\CustomException\CustomException\obj\Debug\CustomException.csprojResolveAssemblyReference.cache
