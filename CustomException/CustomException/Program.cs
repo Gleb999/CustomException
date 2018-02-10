@@ -10,21 +10,21 @@ namespace CustomException
     {
         public class CarIsDeadException : ApplicationException
         {
-            public void Accelerate (int delta)
+            /*public void Accelerate (int delta)
             {
                 CarIsDeadException ex = new CarIsDeadException(string.Format("{0} has overheated!", PetName),
                     "You have a lead foot", DataTime.Now);
                 ex.HelpLink = "http://www.CarsRus.com";
                 throw ex;
             }
-            private string messageDetails = String.Empty;
+            private string messageDetails = String.Empty;*/
+
             public DateTime ErrorTimeStamp { get; set; }
             public string CauseOfError { get; set; }
             
             public CarIsDeadException() { }
             public CarIsDeadException(string message, string cause, DateTime time)
-            {
-                messageDetails = message;
+            :base(message){
                 CauseOfError = cause;
                 ErrorTimeStamp = time;
             }
